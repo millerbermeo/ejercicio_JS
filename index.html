@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Elecciones Alcaldía de Pitalito</title>
+    <link rel="stylesheet" href="stylos.css" />
+  </head>
+  <body>
+    <h1>Elecciones Alcaldía de Pitalito</h1>
+    <form id="formulario">
+      <div class="section-div">
+        <label>
+          <input type="radio" name="candidato" value="Sergio" />
+          Sergio Mauricio Zuñiga<br />
+          <img src="imagen 1.jpg" alt="" />
+        </label>
+        <label>
+          <input type="radio" name="candidato" value="Yider" />
+          Yider Luna Joven<br />
+          <img src="imagen 2.jpg" alt="" />
+        </label>
+        <label>
+          <input type="radio" name="candidato" value="Franklin" />
+          Franklin Alexander Vega<br />
+          <img src="imagen 3.jpg" alt="" />
+        </label>
+        <label>
+          <input type="radio" name="candidato" value="Voto" />
+          Voto en blanco<br />
+          <img src="imagen 4.jpg" alt="" />
+        </label>
+      </div>
+      <br />
+      <input id="enviar" type="submit" value="Votar" />
+    </form>
+    <hr />
+    <h2>Resultado Elecciones</h2>
+    <div id="resultados">
+      <p><strong>Total de votos:</strong> <span id="totalVotos">0</span></p>
+      <p><strong>Ganador:</strong> <span id="ganador"></span></p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
